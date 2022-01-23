@@ -165,7 +165,7 @@ a{
   align-items: center;
   padding: 5rem 15rem;
   background-color: #222222;
-  height: 100vh;
+  /* height: 100vh; */
 }
 .tolu_JoyImg_experince{
   object-fit: contain;
@@ -375,8 +375,8 @@ padding: 10rem 16rem;
   }
   .slideshow {
     grid-template-columns: 1fr;
-    row-gap: 6rem;
-    padding: 6rem 4rem;
+    row-gap: 2rem;
+    padding: 6rem 3rem;
     width: 100%;
   }
   .slideshowImg {
@@ -385,10 +385,11 @@ padding: 10rem 16rem;
   .title{
     font-size: 3.2rem;
     line-height: 4rem;
+    padding-right: 2rem;
   }
 .experience_section{
   grid-template-columns: 1fr;
-  padding: 9rem 4rem;
+  padding: 9rem 3rem;
   height: auto;
   row-gap: 9rem;
 }
@@ -396,7 +397,7 @@ padding: 10rem 16rem;
   order: 2;
 }
 .customer_experience {
-  padding: 10rem 4rem;
+  padding: 10rem 3rem;
 }
 .sub-footer {
   flex-direction: column;
@@ -417,4 +418,78 @@ padding: 10rem 16rem;
 .link_group {
   width: 50%;
 }
+.josiah_JoyImg_experince {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
 }
+.josiah{
+  order: 1;
+} 
+.josiah_experience > .text_Section{
+  order: 2;
+}
+.link_group:nth-child(2), .link_group:nth-child(4){
+  padding-left: 5rem;
+}
+}
+
+@media (max-width:375px) {
+  .title {
+    font-size: 3rem;
+    line-height: 3.5rem;
+}
+.sub_title {
+  font-size: 1.8rem;
+  line-height: 2.5rem;
+}
+.slideshow {
+  padding: 4rem 3rem 2rem 3rem;
+}
+.logo{
+  margin-top: 1.2rem;
+}
+.logo > img {
+  width: 12rem;
+}
+  .email{
+    width: 100%;
+    margin-bottom: .5rem;
+  }
+  
+.text {
+    padding: 1rem 2rem 1rem 0;
+}
+  .newsletter-form {
+    flex-wrap: wrap;
+  }
+  .sub-footer {
+    padding: 0 2rem;
+}
+.footer_links_section {
+  padding: 0rem 2rem 4rem 2rem;
+}
+.primary_header {
+  font-size: 2.2rem;
+}
+}
+@media (max-width:350px) {
+  .title {
+    font-size: 2.4rem;
+    line-height: 3rem;
+}
+.sub_title {
+  font-size: 1.6rem;
+  line-height: 2.3rem;
+}
+.slideshow {
+  row-gap: 2rem;
+  padding: 2rem 3rem;
+}
+.link_group:nth-child(2), .link_group:nth-child(4) {
+  padding-left: 3rem;
+}
+}
+/* @media (max-width:) {
+  
+} */

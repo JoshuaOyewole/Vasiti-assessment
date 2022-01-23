@@ -78,7 +78,7 @@ export default function Homepage() {
           </p>
           <ExperienceBtn color='orange'>Share your own story!</ExperienceBtn>
         </div>
-        <div className="experience_img_section">
+        <div className="experience_img_section josiah">
           <img src={josiah_JoyImg} alt="Amazing Experiences from Our Wonderful Customers" className='josiah_JoyImg_experince'/>
         </div>
       </div>
